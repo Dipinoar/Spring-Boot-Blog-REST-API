@@ -58,7 +58,7 @@ pipeline {
         }
         */
         stage('Generate Performance Report') {
-             steps {
+             steps { 
                        perfReport'src/main/resources/JMeter.jtl'
                   }
         }
